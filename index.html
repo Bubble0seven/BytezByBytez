@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Portfolio showcasing my GitHub projects">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- You can include a framework here, like Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <p>hello world YAY i did something with git deployment</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Your Name</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#repos">GitHub Repos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+        <h2>About Me</h2>
+        <p>Introduce yourself here. Briefly explain your background, what technologies you work with, and any other relevant details.</p>
+    </section>
+
+    <!-- GitHub Repos Section -->
+    <section id="repos" class="container mt-5">
+        <h2>My GitHub Repositories</h2>
+        <div class="row">
+            <!-- Example of a GitHub repo card -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <img src="repo-thumbnail.jpg" class="card-img-top" alt="Repo Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Repository Name</h5>
+                        <p class="card-text">Short description of the repo goes here.</p>
+                        <a href="https://github.com/your-username/repository" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- You can duplicate the card for more repositories -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+        <p>Connect with me: <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a> | <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a></p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
