@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/bytezbyb/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp main.css $DEPLOYPATH
+    - /bin/cp -R /media/images/ $DEPLOYPATH
